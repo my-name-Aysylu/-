@@ -1,0 +1,176 @@
+body {
+    font-family: Noto Sans;
+    background-color: #f5f5f5;
+    
+}
+
+ .menu {
+    position: absolute;
+    background-color: aqua;
+    
+}
+
+.menu-account {
+    max-width: 1024px;
+    
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+.picture {
+    display: flex;
+    width: 400px;
+    height: 900px;
+    position: relative;
+    
+    
+   
+    
+}
+
+
+
+.menu-registration {
+    display: flex;
+    
+    height: 900px; 
+    width: 500px;  
+    background-color: white; 
+    padding: 30px 30px 30px 30px;
+
+    
+}
+
+.registration {
+ gap: 20px;
+}
+
+p1 {
+    color: #0284c7;
+    font-size: 24px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    
+}
+
+input {
+    height: 35px;
+    border-radius: 5px;
+    border-color: #f5f5f5;
+    border-width: 1px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    
+    
+    
+} 
+
+select {
+    height: 38px;
+    width: 150px;
+    border-radius: 5px;
+    
+    border-width: 1px;
+    margin-bottom: 20px;
+    margin-top: 4px
+}
+
+select:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 2px solid #0284c7;
+}
+option {
+    background-color: #0284c7;
+}
+
+input:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 2px solid #0284c7;
+    
+  
+}
+
+label {
+    
+    color: #404040;
+    font-weight: 500;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+}
+
+
+.dash {
+   color:#e5e5e5;
+   margin-bottom: 30px;
+}
+
+
+.delivery-address {
+    display: flex;
+    gap: 20px;
+}
+
+p2 {
+        font-size: 20px;
+        font-weight: 700px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+
+.delivery {
+    display: flex;
+  
+    
+}
+
+p3 {
+    font-size: 20px;
+}
+
+p4 {
+    color: #737373;
+    display: flex;
+    
+}
+
+.notifications {
+    display: flex;
+    
+  
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #0ea5e9;
+    border-color: #0ea5e9;
+    border-width: 1px;
+    color: white;
+    
+}
+
+button:hover {
+    background-color: #0284c7;
+}

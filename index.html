@@ -22,39 +22,37 @@
 		   <img src="mountains-1.jpg"/>
 	       </div>
 		<div class="menu-registration">
-			</div>
-		</div>
-			<div class="menu-registration">
+			
 		 <div class="registration">
             <p1>Регистрация</p1><br>
 	       <br><div class="name">
 	        <form action="https://www.bit-by-bit.ru/form-submit">
-		    <label for="name">Имя</label>
-		    <input  id="name" type="text"  name="firstName"/>
+		    <label for="name">Имя</label><br>
+		    <input class="input" id="name" type="text" size="32"  name="firstName"/>
 		</form>
 		<form action="https://www.bit-by-bit.ru/form-submit">
-		<label for="lastName">Фамилия</label>
-		<input  id="lastName" type="text"  name="lastName"/>
+		<label for="lastName">Фамилия</label><br>
+		<input class="input" id="lastName" type="text" size="32" name="lastName"/>
 	 </form>
 	</div>
 	<div class="contact">
 	 <form action="https://www.bit-by-bit.ru/form-submit">
-		<label for="email">Email</label>
-		<input  id="email" type="text"  name="email"/>
+		<label for="email">Email</label><br>
+		<input class="input" id="email" type="text" size="32" name="email"/>
 	 </form>
 	 <form action="https://www.bit-by-bit.ru/form-submit">
-		<label for="phone">Телефон</label>
-		<input  id="phone" type="number"  name="phone"/>
+		<label for="phone">Телефон</label><br>
+		<input class="input" id="phone" type="text" size="32" name="phone"/>
 	 </form>
 	</div>		
-	<div class="dash">_______________________________________________________________</div>
+	<div class="dash">___________________________________________________________________</div>
 	<div class="menu-address">
 	<p2>Адрес доставки</p2><br>
 	<br><div class="delivery-address">
 	              <div class="country">
 					<form action="https://www.bit-by-bit.ru/form-submit">
 						<label for="country">Страна</label>
-						<select id="country"  type="text" name="country"> 
+						<select id="country"  type="text"  name="country"> 
 							<option>Россия</option>
 							<option>Беларусь</option>
 							<option>Казахстан</option>
@@ -65,49 +63,50 @@
 					<div class="city">
 					<form action="https://www.bit-by-bit.ru/form-submit">
 						<label for="city">Город</label>
-						<input id="city" type="text"  name="city"/>
+						<input class="input" id="city" type="text" size="18" name="city"/>
 					</form>
 				</div>
 				<div class="index">
 					<form action="https://www.bit-by-bit.ru/form-submit">
 						<label for="postalCode">Почтовый индекс</label>
-						<input id="postalCode" type="text"  name="postalCode"/>
+						<input class="input" id="postalCode" type="text" size="18" name="postalCode"/>
 					</form>
 				</div>
 			</div>
 				<div class="delivery">
 					<form action="https://www.bit-by-bit.ru/form-submit">
-						<label for="streetAddress">Адрес доставки (улица, дом, квартира)</label>
-						<input id="streetAddress" type="text"  name="streetAddress"/>
+						<label for="streetAddress">Адрес доставки (улица, дом, квартира)</label><br>
+						<input class="input" id="streetAddress" type="text" size="72"  name="streetAddress"/>
 					</form>
 				</div>
 				</div>
-				<div class="dash">_____________________________________________________________</div>
+				<div class="dash">___________________________________________________________________</div>
 			
 			<p3>Уведомлять об акциях и скидках</p3><br>
 				<br><p4>Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p4>
 			<div class="notifications">	
-				<form url="https://www.bit-by-bit.ru/form-submit">
-					<div>
+				<form action="https://www.bit-by-bit.ru/form-submit">
+					<div class="email">
 						<input type="checkbox" id="contactchoice1" name="=contacts" value="Email"/>
 						<label for="contactchoice1">По Email</label>
 						</div>
-						<div>
+						<div class="sms">
 						<input type="checkbox" id="contactchoice2" name="=contacts" value="sms"/>
 						<label for="contactchoice2">По SMS</label>
 						</div>
-						<div>
+						<div class="push">
 						<input type="checkbox" id="contactchoice3" name="=contacts" value="Push-уведомления"/>
 						<label for="contactchoice3">По Push-уведомления в приложении</label>
 						</div>
 				</form>
 			</div>
-			<div class="dash">________________________________________________________</div>
+			<div class="dash">___________________________________________________________________</div>
 			<form action="https://www.bit-by-bit.ru/form-submit">
-			<button type="submit"  >Создать аккаунт</button>
+			<button type="submit">Создать аккаунт</button>
 		</form>
 	</div>
-		</div>
+	</div>
+</div>	
 	
 	</body>
 </html>

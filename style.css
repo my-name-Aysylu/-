@@ -38,17 +38,26 @@ body {
     background-color: white; 
     padding: 30px 30px 30px 30px;
     position: relative; 
+  }
+
+  .name-lastname {
+    display: flex;
+   
+    gap: 20px;
+  }
+  .contact-phone {
+    display: flex;
     
+    gap: 20px;
     
-    
-    
-    
-}
+  }
+
 
 .registration {
-    position: relative;
+   position: relative;
+ }
 
-}
+
 
 p1 {
     color: #0284c7;
@@ -91,9 +100,7 @@ option:focus {
 .input:focus {
     outline: 0;
     outline-offset: 0;
-    border: 2px solid #0284c7;
-    
-  
+    border: 2px solid #0284c7;  
 }
 
 label {
@@ -102,18 +109,7 @@ label {
     font-weight: 500;
 }
 
-.name {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    
-}
 
-.contact {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
 
 
 .dash {
@@ -129,17 +125,13 @@ label {
 }
 
 p2 {
+        
         font-size: 20px;
         font-weight: 700px;
         margin-bottom: 20px;
         margin-top: 20px;
 }
 
-.delivery {
-    display: flex;
-  
-    
-}
 
 p3 {
     font-size: 20px;
@@ -154,7 +146,7 @@ p4 {
 
 .notifications {
     display: flex;
-    align-items: center; 
+    flex-direction: column; 
 }
 
 .email {

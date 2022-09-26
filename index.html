@@ -25,32 +25,35 @@
 			
 		 <div class="registration">
             <p1>Регистрация</p1><br>
-	       <br><div class="name">
+	       <br><div class="registration-data">
 	        <form action="https://www.bit-by-bit.ru/form-submit">
+			<div class="name-lastname">
+			<div>
 		    <label for="name">Имя</label><br>
 		    <input class="input" id="name" type="text" size="32"  name="firstName"/>
-		</form>
-		<form action="https://www.bit-by-bit.ru/form-submit">
-		<label for="lastName">Фамилия</label><br>
-		<input class="input" id="lastName" type="text" size="32" name="lastName"/>
-	 </form>
+		</div>
+		<div>
+			<label for="lastName">Фамилия</label><br>
+		    <input class="input" id="lastName" type="text" size="32" name="lastName"/>
+		</div>
 	</div>
+<div class="contact-phone">
 	<div class="contact">
-	 <form action="https://www.bit-by-bit.ru/form-submit">
 		<label for="email">Email</label><br>
 		<input class="input" id="email" type="text" size="32" name="email"/>
-	 </form>
-	 <form action="https://www.bit-by-bit.ru/form-submit">
+	 </div>
+	 <div>
 		<label for="phone">Телефон</label><br>
 		<input class="input" id="phone" type="text" size="32" name="phone"/>
-	 </form>
-	</div>		
-	<div class="dash">___________________________________________________________________</div>
+	</div>
+	</div>
+</div>		
+<div class="dash">___________________________________________________________________</div>
 	<div class="menu-address">
 	<p2>Адрес доставки</p2><br>
 	<br><div class="delivery-address">
 	              <div class="country">
-					<form action="https://www.bit-by-bit.ru/form-submit">
+					
 						<label for="country">Страна</label>
 						<select id="country"  type="text"  name="country"> 
 							<option>Россия</option>
@@ -58,34 +61,33 @@
 							<option>Казахстан</option>
 							<option>Польша</option>
 						</select>
-					</form>
+					
 				</div>
 					<div class="city">
-					<form action="https://www.bit-by-bit.ru/form-submit">
+					
 						<label for="city">Город</label>
 						<input class="input" id="city" type="text" size="18" name="city"/>
-					</form>
+					
 				</div>
 				<div class="index">
-					<form action="https://www.bit-by-bit.ru/form-submit">
+					
 						<label for="postalCode">Почтовый индекс</label>
 						<input class="input" id="postalCode" type="text" size="18" name="postalCode"/>
-					</form>
+					
 				</div>
 			</div>
 				<div class="delivery">
-					<form action="https://www.bit-by-bit.ru/form-submit">
+					
 						<label for="streetAddress">Адрес доставки (улица, дом, квартира)</label><br>
 						<input class="input" id="streetAddress" type="text" size="72"  name="streetAddress"/>
-					</form>
-				</div>
+					</div>
 				</div>
 				<div class="dash">___________________________________________________________________</div>
 			
 			<p3>Уведомлять об акциях и скидках</p3><br>
 				<br><p4>Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p4>
 			<div class="notifications">	
-				<form action="https://www.bit-by-bit.ru/form-submit">
+				
 					<div class="email">
 						<input type="checkbox" id="contactchoice1" name="=contacts" value="Email"/>
 						<label for="contactchoice1">По Email</label>
@@ -98,10 +100,10 @@
 						<input type="checkbox" id="contactchoice3" name="=contacts" value="Push-уведомления"/>
 						<label for="contactchoice3">По Push-уведомления в приложении</label>
 						</div>
-				</form>
+				
 			</div>
 			<div class="dash">___________________________________________________________________</div>
-			<form action="https://www.bit-by-bit.ru/form-submit">
+			
 			<button type="submit">Создать аккаунт</button>
 		</form>
 	</div>
